@@ -109,10 +109,10 @@ const Footer = () => {
                 Follow:
               </p>
               <span>
-                {" "}
+              
                 <Link to=''>
                   <i className='ri-facebook-line'></i>
-                </Link>{" "}
+                </Link>
               </span>
 
               <span>
