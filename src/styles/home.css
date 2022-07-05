@@ -79,9 +79,6 @@
 }
 
 @media (max-width:768px) {
-    .hero__content {
-        text-align: center;
-    }
 
     .hero__content h5 {
         font-size: 1rem;
@@ -135,6 +132,7 @@
 
     .tasty__treat-desc {
         font-size: .8rem;
+        margin-bottom: 0;
     }
 
     .choose__us-title {
@@ -144,16 +142,32 @@
 
     .choose__us-desc {
         font-size: .7rem;
+    }
 
+    .testimonial__subtitle {
+        font-size: 1rem;
+    }
+
+    .testimonial__desc {
+        font-size: .8rem;
     }
 }
 
 @media (max-width:576px) {
+
+    .hero__content {
+        text-align: center;
+    }
+
     .hero__btns {
         justify-content: center;
     }
 
     .hero__service {
         justify-content: center;
+    }
+
+    .why__choose-us {
+        padding-top: 0 !important;
     }
 }

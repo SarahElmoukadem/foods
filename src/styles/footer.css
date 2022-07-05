@@ -86,7 +86,59 @@
     color: #FFF;
     border-radius: 50%;
 }
-.copyright__text{
+
+.copyright__text {
     font-size: .8rem;
-    color:#df2020;
+    color: #df2020;
+}
+
+@media (max-width:992px) {
+    .newsletter input {
+        padding: 10px 7px;
+        font-size: 0.7rem;
+    }
+
+    .newsletter span {
+        padding: 5px 20px;
+        font-size: .7rem;
+    }
+}
+
+@media (max-width:768px) {
+    .footer__title {
+        font-size: .8rem;
+    }
+
+    .delivery__time-item span {
+        font-size: .8rem;
+    }
+
+    .delivery__time-item p {
+        font-size: .7rem;
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    .copyright__text {
+        text-align: center;
+    }
+
+    .social__links {
+        justify-content: center;
+    }
+
+    .social__links p {
+        font-size: .8rem;
+    }
+
+    .social__links span {
+        padding: 4px;
+    }
+
+    .social__links span a {
+        font-size: .7rem;
+    }
 }

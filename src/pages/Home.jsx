@@ -220,7 +220,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section>
+      <section className='why__choose-us'>
         <Container>
           <Row>
             <Col lg='6' md='6'>
@@ -235,7 +235,7 @@ const Home = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perferendis maiores, error voluptates odio corrupti! Vel, fugiat. Aperiam, quo. Iste harum porro praesentium provident at soluta libero exercitationem aliquam ipsum.
                 </p>
 
-                <ListGroup className='mt-5'>
+                <ListGroup className='mt-4'>
                   <ListGroupItem className='border-0 ps-0'>
                     <p className='choose__us-title d-flex align-items-center gap-2'>
                       <i className="ri-checkbox-circle-line"></i> Fresh and tasty foods
