@@ -49,7 +49,7 @@ const Home = () => {
     const filteredPizza = products.filter(item => item.category === 'Pizza')
     const slicePizza = filteredPizza.slice(0, 4);
     setHotPizza(slicePizza)
-  })
+  },[])
   useEffect(() => {
     if (category === 'ALL') {
       setAllProducts(products)
