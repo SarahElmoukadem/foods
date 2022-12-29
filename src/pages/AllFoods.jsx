@@ -35,7 +35,7 @@ const AllFoods = () => {
         <Container>
           <Row>
             <Col lg='6' md='6' sm='6' xs='12'>
-              <div className="search__widget d-flex align-items-center justify-content-between w-50">
+              <div className="search__widget d-flex align-items-center justify-content-between w-100">
                 <input type='text' placeholder="I'm looking for...." value={searchItem}
                   onChange={e => setSearchItem(e.target.value)}
                 />
@@ -59,7 +59,7 @@ const AllFoods = () => {
 
             {
               displayPage?.map(item => (
-                  <Col lg='3' md='4' sm='6' xs='6' key={item.id}
+                  <Col lg='3' md='4' sm='6' xs='12' key={item.id}
                     className='mb-4'
                   >
 
